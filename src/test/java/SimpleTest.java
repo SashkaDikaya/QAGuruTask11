@@ -7,5 +7,6 @@ public class SimpleTest {
     void assertTrueTest() {
 
         Assertions.assertTrue(3 > 1);
+
     }
 }
