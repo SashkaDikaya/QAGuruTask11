@@ -16,7 +16,7 @@ public class FillFormTest extends TestBase{
                 .typeFirstName(randomFirstName)
                 .typeLastName(randomLastName)
                 .typeUserEmail(email)
-                .selectGenderButton(femaleGender)
+                .selectGenderButton(maleGender)
                 .typePhoneNumber(randomPhoneNumber)
                 .calendarComponents.setDate(day, month, year);
         registrationPage.typeSubject(subject)
@@ -29,7 +29,7 @@ public class FillFormTest extends TestBase{
 
        registrationPage.checkResultsValue("Student name", randomFirstName + " " + randomLastName)
                 .checkResultsValue("Student Email", email)
-                .checkResultsValue("Gender", femaleGender)
+                .checkResultsValue("Gender", maleGender)
                 .checkResultsValue("Mobile", randomPhoneNumber)
                 .checkResultsValue("Date of Birth", day + " " + month + "," + year)
                 .checkResultsValue("Subjects", subject)
