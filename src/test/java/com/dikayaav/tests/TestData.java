@@ -7,7 +7,7 @@ public class TestData extends TestBase{
     lastName = "Dikaya",
     email = "dikaya@gmail.com",
     maleGender = "Male",
-    phone = "1234567890",
+    phone = "1234567880",
     day = "24",
     month = "May",
     year = "1988",
